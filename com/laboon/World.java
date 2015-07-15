@@ -116,6 +116,7 @@ public class World {
 	
 	public String toString() {
 		StringBuilder toReturn = new StringBuilder();
+		toReturn.append("  ");
 		for (int j= 0; j < _size; j++) {
 			toReturn.append(String.valueOf(j % 10));
 		}
